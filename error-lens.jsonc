@@ -1,45 +1,30 @@
 {
-  "errorLens.border": [
-        "1px solid",
-        "1px dotted",
-        "1px dashed",
-        "1px solid"
-    ],
-    "errorLens.codeLensEnabled": true,
-    "errorLens.codeLensTemplate": "$source found [$severity]: $message",
-    "errorLens.delayMode": "debounce",
-    "errorLens.editorHoverPartsEnabled": {
-        "buttonsEnabled": true,
-        "messageEnabled": true,
-        "sourceCodeEnabled": true
-    },
-    "errorLens.enabledDiagnosticLevels": [
-        "error",
-        "warning",
-        "info",
-        "hint"
-    ],
-    "errorLens.fontFamily": "Inter",
-    "errorLens.gutterEmoji": {
-        "error": "👹",
-        "hint": "🕵️",
-        "info": "🧠",
-        "warning": "🧙"
-    },
-    "errorLens.gutterIconSet": "emoji",
-    "errorLens.gutterIconsEnabled": true,
-    "errorLens.messageBackgroundMode": "message",
-    "errorLens.messageMaxChars": 150,
-    "errorLens.messageTemplate": "[$count] $severity $message $source($code)",
-    "errorLens.padding": "2px 1ch",
-    "errorLens.removeLinebreaks": false,
-    "errorLens.searchForProblemQuery": "http://localhost:3080/c/new?prompt=$message",
-    "errorLens.severityText": [
-        "👹",
-        "🧙",
-        "🧠",
-        "🕵️"
-    ],
-    "errorLens.statusBarColorsEnabled": true,
-    "errorLens.statusBarIconsEnabled": true,
+  "errorLens.border": ["1px solid", "1px dotted", "1px dashed", "1px solid"],
+  "errorLens.codeLensEnabled": true,
+  "errorLens.codeLensTemplate": "$source found [$severity]: $message",
+  "errorLens.delayMode": "debounce",
+  "errorLens.editorHoverPartsEnabled": {
+    "buttonsEnabled": true,
+    "messageEnabled": true,
+    "sourceCodeEnabled": true,
+  },
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"],
+  "errorLens.fontFamily": "Inter",
+  "errorLens.gutterEmoji": {
+    "error": "👹",
+    "hint": "🕵️",
+    "info": "🧠",
+    "warning": "🧙",
+  },
+  "errorLens.gutterIconSet": "emoji",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.messageMaxChars": 150,
+  "errorLens.messageTemplate": "[$count] $severity $message $source($code)",
+  "errorLens.padding": "2px 1ch",
+  "errorLens.removeLinebreaks": false,
+  "errorLens.searchForProblemQuery": "http://localhost:3080/c/new?prompt=$message",
+  "errorLens.severityText": ["👹", "🧙", "🧠", "🕵️"],
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.statusBarIconsEnabled": true,
 }
