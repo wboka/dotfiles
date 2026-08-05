@@ -1,0 +1,13 @@
+{
+  "name": "dotfiles",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Common dotfiles and shared configuration.",
+  "scripts": {
+    "format": "prettier --write",
+    "format:check": "prettier --check"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}
