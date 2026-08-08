@@ -23,7 +23,6 @@
   "errorLens.messageTemplate": "[$count] $severity $message $source($code)",
   "errorLens.padding": "2px 1ch",
   "errorLens.removeLinebreaks": false,
-  "errorLens.searchForProblemQuery": "http://localhost:3080/c/new?prompt=$message",
   "errorLens.severityText": ["👹", "🧙", "🧠", "🕵️"],
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarIconsEnabled": true,
